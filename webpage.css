@@ -1,0 +1,84 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.shutterstock.com/image-vector/night-cricket-stadium-illustration-vector-600nw-2160100275.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(36, 36, 36);
+    
+} 
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: blue;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+.img{
+    
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 13px;
+    font-size: 12px;
+    height: 80%;
+    width: 180%;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 60px;
+    
+}
+.stats{
+    background-color: black;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    text-align-last: center;
+    height: 80px;
+}
+.test{
+    text-align: center;
+    background-color: orange;
+    width: 33%;
+}
+.ODIcarrer{
+    text-align: center;
+    background-color: white;
+    width: 33%;
+}
+.T20carrer
+{
+    text-align: center;
+    background-color:rgb(16, 133, 16);
+    width :34%;
+}
+.rohit{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
